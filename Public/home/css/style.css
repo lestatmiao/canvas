@@ -1,0 +1,314 @@
+@charset "utf-8";
+
+.floatL{float:left; _display:inline;}
+.floatR{float:right; _display:inline;}
+
+.wBase{width:1000px; margin:0 auto;}
+.mr10{ margin-right:10px}
+.ad250{width:1000px; margin:0 auto; height:250px; clear:both}
+/*
+.serviceWrap{position:fixed; _position:absolute; right:10px; top:0; width:108px; overflow:hidden;}
+.serviceWrap .title{text-align:center; font:14px/1.6em "黑体", "宋体"; width:108px;}
+.serviceWrap table{margin:0; padding:0; background:#eeeeef;}*/
+
+#QQKF{position:fixed; _position:absolute; right:0px; top:190px; width:100px; text-decoration:none; background:none;}
+#QQKF #KF_link{width:75px; overflow:hidden; display:block; position:relative; padding:12px 11px 0 0; display:block;}
+#QQKF #KF_link b{display:block; width:11px; height:12px; background:url("../images/close.png")/*tpa=http://zxygift.com/images/close.png*/; position:absolute; top:0; right:0; cursor:pointer;}
+#QQKF #KF_btn{width:27px; height:75px; overflow:hidden; float:right; margin-top:20px; cursor:pointer; display:none;}
+a.serviceWrap{width:75px; height:120px; text-decoration:none;}
+/*a.serviceWrap{position:fixed; _position:absolute; right:50px; top:30px; width:75px; text-decoration:none;}*/
+a.serviceWrap:hover{text-decoration:none;}
+a.serviceWrap img{display:block; margin:0 auto;}
+a.serviceWrap .title{color:#333; text-align:center; line-height:1.6em; font-size:14px; font-family:"黑体", "宋体";}
+
+/* footer */
+#footer{position:relative;}
+#footer .links{clear:both; border-top:1px solid #efefef; padding:10px; line-height:23px; background:url("../images/links_bg_01.jpg")/*tpa=http://zxygift.com/images/links_bg_01.jpg*/ repeat-x;}
+#footer .links a{margin:0 5px; text-decoration:none;}
+#footer .subNav{height:45px; line-height:45px; border-top:1px solid #ebe9dc; text-align:center; color:#b5b5b5; background:url("../images/subNav_bg_01.jpg")/*tpa=http://zxygift.com/images/subNav_bg_01.jpg*/ repeat-x;}
+#footer .subNav a{margin:0 15px; color:#5d5d5d; font-weight:bold; text-decoration:none;}
+#footer .subNav a:hover{color:#ff6600;}
+#footer .copyright{height:61px; background:url("../images/copyright_bg_01.jpg")/*tpa=http://zxygift.com/images/copyright_bg_01.jpg*/ no-repeat; padding-left:15px; position:relative;}
+#footer .copyright div{color:#fff; line-height:1.6em;}
+#footer .copyright a{color:#fff;}
+#footer .copyright a:hover{color:#ff6600;}
+#footer .icon{position:absolute; top:15px; left:38px;}
+#footer .icon img{margin-right:6px;}
+#footer #bottomer{text-align:center;  left:0px;  width:1000px; height:60px; padding-top:17px; overflow:hidden;}
+
+/* header */
+#header{position:relative; height:136px;background:url("../images/tel.jpg")/*tpa=http://zxygift.com/images/tel.jpg*/ no-repeat right top;}
+#header .logo{margin:65px 0 0 91px;}
+#header .headerBg{height:245px; background:url("../images/header_bg_01.jpg")/*tpa=http://zxygift.com/images/header_bg_01.jpg*/ no-repeat; position:relative;}
+#header .headerBg .swf{position:absolute; top:39px; right:75px; opacity:0.5;}
+#header .topNav{float:right; _display:inline; margin:20px 5px; color:#fff;}
+#header .topNav a{margin:0 5px; color:#fff;}
+#header .topNav a.home{padding-left:15px; background:url("../images/icon_home.gif")/*tpa=http://zxygift.com/images/icon_home.gif*/ no-repeat;}
+#header .topNav a.fc_red{color:#ff0000;}
+#header .mainNav{height:80px; }
+#header .mainNav .slogo{ float:left; width:120px}
+#header .mainNav ul{float:left; _display:inline; margin-left:190px; width:690px; margin-top:80px;}
+#header .mainNav ul li{float:left; _display:inline; padding:0 19px; text-align:center; height:56px;  background:url("../images/mainNav_fenge.gif")/*tpa=http://zxygift.com/images/mainNav_fenge.gif*/ no-repeat left center;}
+#header .mainNav ul li a{font-size:16px; text-decoration:none; font-family:"微软雅黑", "黑体", "宋体"; color:#333}
+#header .mainNav ul li i{ display:block; text-align:center; font-style:normal; font-size:12px}
+#header .mainNav ul li a:hover{font-weight:bold;}
+#header .mainNav ul li.home{background:none;}
+/*#header .mainNav .tel{float:right; _display:inline; margin:12px 40px 0 0; font-size:13px;}
+#header .mainNav .tel td{color:#fff; font-weight:bold;}*/
+#header .mainNav .tel{float:right; _display:inline; margin:18px 70px 0 0; font-size:18px; color:#fff; font-weight:bold; font-style:italic;}
+#header .shop{position:absolute; right:10px; top:42px;}
+#header .shop a{width:120px; height:30px; background:url("../images/shop_cart.png")/*tpa=http://zxygift.com/images/shop_cart.png*/ no-repeat; display:block; line-height:30px; text-indent:29px; font-size:13px; font-weight:bold;}
+#header .shop a font{margin:0 3px;}
+
+#header .mainNav_en{height:56px; background:url("../images/mainNav_bg_01.jpg")/*tpa=http://zxygift.com/images/mainNav_bg_01.jpg*/ no-repeat left center;}
+#header .mainNav_en ul{float:left; _display:inline; margin-left:0;}
+#header .mainNav_en ul li{float:left; _display:inline; padding:0 15px; text-align:center; height:56px; line-height:56px; background:url("../images/mainNav_fenge.gif")/*tpa=http://zxygift.com/images/mainNav_fenge.gif*/ no-repeat left center;}
+#header .mainNav_en ul li a{font-size:16px; color:#fff; text-decoration:none; font-family:"微软雅黑", "黑体", "宋体";}
+#header .mainNav_en ul li a:hover{font-weight:bold;}
+#header .mainNav_en ul li.home{background:none;}
+#header .mainNav_en .tel{float:right; _display:inline; margin:18px 70px 0 0; font-size:18px; color:#FFF; font-weight:bold; font-style:italic;}
+#header .mainNav_en .tel td{color:#fff; font-weight:bold;}
+
+/* indexMain */
+#indexMain{clear:both; margin-top:6px;}
+#indexMain .aboutUs{background:#f0f0f0;}
+#indexMain .aboutUs dt{height:40px; line-height:40px; text-indent:15px; }
+#indexMain .aboutUs dt a{/*margin-left:5px; color:#fab219;*/ color:#fa5f2a; font-weight:bold; font-size:14px;}
+#indexMain .aboutUs dt a span{color:#fab219; font-family:"宋体";}
+#indexMain .aboutUs dd{padding:0 15px; text-indent:2em; line-height:1.8em; color:#606060;}
+#indexMain .newsList{width:326px; height:197px; }
+#indexMain .newsList h3{height:27px; line-height:27px;   font-size:16px; font-family:"microsoft yahei","宋体";   font-weight:bold; margin-bottom:5px; border-bottom:solid 1px #DFDFDF; border-top:1px #DFDFDF dotted; margin-top:15px;}
+#indexMain .newsList h3 a{float:right; _display:inline; width:37px; display:block; margin-right:15px; font-size:12px; font-weight:normal; background:url("../images/ico.jpg")/*tpa=http://zxygift.com/images/ico.jpg*/ no-repeat right center; }
+#indexMain .newsList li{height:29px; line-height:29px; background:url("../images/icon_01.jpg")/*tpa=http://zxygift.com/images/icon_01.jpg*/ no-repeat 5px center; padding-left:22px;}
+#indexMain .newsList li a{text-decoration:none;}
+#indexMain .newsList li a:hover{font-weight:bold;}
+#indexMain .lineShop{}
+#indexMain .lineShop dt{height:27px; line-height:27px; text-align:center; background:url("../images/lineShop.jpg")/*tpa=http://zxygift.com/images/lineShop.jpg*/ no-repeat center;}
+#indexMain .lineShop dt span{padding:0 22px; color:#f18e2b; font-family:"微软雅黑", "黑体", "宋体"; font-weight:bold; background:#fff; font-size:18px; letter-spacing:3px;}
+#indexMain .lineShop dd{height:175px;}
+
+/* main */
+#main{/*width:780px;*/ width:717px; margin-top:6px; padding-bottom:25px; background:url("../images/box_02_bg_02.jpg")/*tpa=http://zxygift.com/images/box_02_bg_02.jpg*/ repeat-y;}
+#main .h2{height:60px; line-height:60px; color:#7b292c; font-size:16px; font-weight:bold; text-indent:23px; background:url("../images/box_02_top_02.jpg")/*tpa=http://zxygift.com/images/box_02_top_02.jpg*/ no-repeat;}
+#main .h2 a{color:#7b292c; text-decoration:none;}
+#main .h2 a:hover{color:#ff6600;}
+#main .h2 span{font-family:"宋体"; margin:0 10px;}
+
+#main .applylinks{float:left; _display:block; margin:20px 0 0 70px;}
+#main .applylinks img{float:left; _display:block; margin-top:30px;}
+#main .applylinks table{float:left; _display:block;}
+#main .applylinks table caption{font-size:16px; color:#ff6600; height:50px; line-height:50px; font-weight:bold;}
+#main .applylinks table tr{height:30px; vertical-align:middle;}
+#main .applylinks table th{font-weight:normal; text-align:right;}
+#main .applylinks table td{padding-left:10px;}
+#main .applylinks table td .txt{width:180px; border:0; border-bottom:1px solid #84ca6e;}
+
+/* sidebar */
+#sidebar{/*width:205px;*/ width:273px; margin-top:6px; background:url("../images/box_04_bg.jpg")/*tpa=http://zxygift.com/images/box_04_bg.jpg*/ repeat-y;}
+#sidebar h3{height:25px; padding-top:17px; text-indent:20px; color:#fff; font-size:14px; font-weight:bold; background:url("../images/box_04_top.jpg")/*tpa=http://zxygift.com/images/box_04_top.jpg*/ no-repeat;}
+#sidebar h3 span{color:#9b5c5e; font-size:10px; margin-left:5px;}
+#sidebar .box3{padding:12px 15px;}
+#sidebar .box3 li{padding:8px 0 8px 32px; border-bottom:1px solid #e2e2e2; background:url("../images/icon_02.jpg")/*tpa=http://zxygift.com/images/icon_02.jpg*/ no-repeat 5px 13px;}
+#sidebar .box3 li a{text-decoration:none; font-size:14px;line-height:1.4em;}
+
+#sidebar .survey{padding:12px 15px; line-height:1.8em;}
+#sidebar .survey p{margin:3px 0 10px;}
+#sidebar .survey .btn{width:55px; height:24px; border:0; background:url("../images/btn_bg_01.jpg")/*tpa=http://zxygift.com/images/btn_bg_01.jpg*/ no-repeat;}
+
+#sidebar .links{padding:10px 0; float:left; _display:inline; background:#fff; width:240px; margin-left:16px;}
+#sidebar .links dt{color:#ff6600; text-align:center; background:#fff; margin:0 auto; padding:10px 0; font-weight:bold; font-size:14px;}
+#sidebar .links dt span{display:block; color:gray; font-size:10px; font-weight:normal;}
+#sidebar .links dd{float:left; _display:inline; margin-left:28px; height:115px; line-height:1.4em; width:77px;}
+#sidebar .links dd a{display:block; text-align:center; text-decoration:none;}
+#sidebar .links dd table{margin-bottom:3px;}
+#sidebar .links dd td.img{vertical-align:middle; width:77px; height:77px; text-align:center; margin:0; background:url("../images/links_box_bg.jpg")/*tpa=http://zxygift.com/images/links_box_bg.jpg*/ no-repeat;}
+#sidebar .links dd td.img img{display:block; margin:0 auto;}
+
+#sidebar .proWrap{background:url("../images/box_04_bg.jpg")/*tpa=http://zxygift.com/images/box_04_bg.jpg*/ repeat-y; padding:12px 10px 30px;}
+#sidebar h3.h3 {background:url("../images/box_04_top.jpg")/*tpa=http://zxygift.com/images/box_04_top.jpg*/ no-repeat;!important}
+#sidebar .proWrap .procate{margin-top:15px; margin-left:2px;}
+#sidebar .proWrap .procate dd{margin:10px 0 0 30px;}
+#sidebar .proWrap .procate dd a.more{text-decoration:none; padding-left:15px; margin:5px 40px 0 0; background:url("../images/inco_more2.jpg")/*tpa=http://zxygift.com/images/inco_more2.jpg*/ no-repeat left center;}
+#sidebar .proWrap .procate dd a.in{background:url("../images/inco_more3.jpg")/*tpa=http://zxygift.com/images/inco_more3.jpg*/ no-repeat left center;}
+#sidebar .proWrap .procate dd a{font-family:"宋体";}
+#sidebar .proWrap .procate dd ol{margin-left:20px; display:none;}
+#sidebar .proWrap .property ol{display:none;}
+#sidebar .proWrap .property span{cursor:pointer;}
+#sidebar .proWrap .search dd{height:95px; overflow:hidden; padding:15px 3px 0 5px;}
+#sidebar .proWrap .search form{height:23px;}
+#sidebar .proWrap .search form .wrap{height:21px; border:1px solid #d4d4d4; float:right; padding-left:21px; background:url("../images/search_icon.jpg")/*tpa=http://zxygift.com/images/search_icon.jpg*/ no-repeat;}
+#sidebar .proWrap .search form .wrap .txt{border:0; float:left; width:150px; padding:0 5px; height:21px; line-height:21px;}
+#sidebar .proWrap .search form .wrap .btn{border:0; float:left; width:60px; height:21px; line-height:21px; background:#d4d4d4; color:#000; cursor:pointer;}
+/*#sidebar .proWrap .search form{margin:20px 0 20px 15px;}
+#sidebar .proWrap .search form .txt{width:145px;}
+#sidebar .proWrap .search form select{width:149px;}
+#sidebar .proWrap .search form .btn{width:16px; height:16px; border:0; cursor:pointer; background:url(/images/All_Search_Go.gif) no-repeat;}*/
+
+
+/* indexProcate */
+#indexProcate{position:relative;}
+#indexProcate .btn_left{position:absolute; left:0; top:40%; cursor:pointer;}
+#indexProcate .btn_right{position:absolute; right:0; top:40%; cursor:pointer;}
+#indexProcate .list{position:relative; left:26px; top:15px; width:950px; float:left; height:160px; overflow:hidden;}
+#indexProcate .list ul{position:absolute; left:-17px; top:0; float:left; width:965px;}
+#indexProcate .list ul li{float:left; display:inline; width:241px;}
+#indexProcate .list ul li a{display:block; text-align:center; text-decoration:none; margin-bottom:6px; margin-left:17px;}
+
+
+
+
+
+/*chinese*/
+
+/*breadcrumb*/
+#breadcrumb{ margin-bottom:5px; overflow:hidden; height:16px; margin-top:10px;}
+#breadcrumb li{ float:left; _display:inline;margin-left:5px; line-height:0px; font-size:0px; padding:0px; height:16px; line-height:16px;}
+#breadcrumb li a{ display:inline-block; font-size:12px}
+#breadcrumb li a:hover{ text-decoration:none}
+#breadcrumb li.gt{ background:url("../images/gt.jpg")/*tpa=http://zxygift.com/images/gt.jpg*/ left center no-repeat; height:16px; width:5px; *background-position:left 2px}
+#breadcrumb li.home{ background:url("../images/home_icon.jpg")/*tpa=http://zxygift.com/images/home_icon.jpg*/ left center no-repeat; padding-left:15px;*background-position:left 1px}
+
+#cart_info{position:absolute; right:30px; top:5px; width:490px; overflow:hidden;}
+#cart_info .c_left{float:left; padding-top:8px;}
+#cart_info .c_right{float:right;}
+#cart_info a.tb_cart{background:url("../images/tb_cart.jpg")/*tpa=http://zxygift.com/images/tb_cart.jpg*/ no-repeat left center; padding-left:24px; margin-left:27px; margin-right:10px;}
+#cart_info a.checkbtn{background:url("../images/checkbtn.jpg")/*tpa=http://zxygift.com/images/checkbtn.jpg*/ no-repeat left center; padding-left:21px; margin-left:10px; margin-right:8px;}
+
+#member_login{width:1000px; border-bottom:1px solid #DCDCDC; margin-bottom:10px; padding-top:5px;}
+#member_login .logo{border-bottom:1px solid #DCDCDC;}
+#member_login .f{margin:0;}
+#member_login .f .form{float:left; width:299px; height:272px; overflow:hidden; margin-right:11px; background:url("../images/member_login.jpg")/*tpa=http://zxygift.com/images/member_login.jpg*/ no-repeat;}
+#member_login .f .form .t{height:33px; line-height:33px; font-size:14px; font-weight:bold; color:#fff; text-indent:14px; margin-top:7px;}
+#member_login .f .form .ft{height:190px; padding:10px;}
+#member_login .f .form .ft .input{background:none; width:200px; height:24px; line-height:24px;}
+#member_login .f .form .ft .forgot{margin-left:20px; color:#0159A0; text-decoration:underline;}
+#member_login .f .form .ft .reg{margin-top:25px; text-indent:5px;}
+#member_login .f .welcome{float:right; width:690px; overflow:hidden;}
+#member_login .f .welcome .ad{float:left;}
+#member_login .f .welcome .last{margin-left:15px;}
+#member_login .form_button{background:url("../images/nav_bg.jpg")/*tpa=http://zxygift.com/images/nav_bg.jpg*/ repeat-x; width:58px; font-size:14px;}
+
+#member_reg{width:980px; border-bottom:1px solid #DCDCDC; margin-bottom:10px; padding:0px 10px;}
+#member_reg .logo{border-bottom:1px solid #DCDCDC;padding:10px }
+#member_reg .form{margin:5px 0;}
+#member_reg .form .t{height:32px; line-height:32px; background:url("../images/nav_bg.jpg")/*tpa=http://zxygift.com/images/nav_bg.jpg*/; font-size:14px; font-weight:bold; color:#fff; text-indent:18px;}
+#member_reg .form .ft{border:1px solid #dcdcdc; padding:20px; background:url("../images/member_reg_bg.jpg")/*tpa=http://zxygift.com/images/member_reg_bg.jpg*/ right top no-repeat;}
+#member_reg .form .ft .member_title{margin-left:90px;}
+#member_reg .form .ft .member_title input{margin-left:50px;}
+#member_reg .form .ft .input{background:none; width:190px; height:24px; line-height:24px;}
+#member_reg .form .ft .yz_input{background:none; width:50px; height:24px; line-height:24px; margin-right:10px; text-transform:uppercase;}
+#member_reg .form .ft .reload_excode{color:#0159A0; text-decoration:underline; margin-left:5px;}
+#member_reg .form .ft .rule{line-height:180%; margin-top:10px; width:600px; height:100px; border:1px solid #dcdcdc; margin-left:8px; padding:8px; overflow:scroll; overflow-x:hidden;}
+#member_reg .main_contents{width:890px;}
+#member_reg #footer_nav div{width:888px;}
+
+#member_main{ width:990px; padding:20px 10px 0px; position:relative;}
+#member_main .menu{width:214px; float:left;}
+#member_main .righter{width:756px; float:left; margin-left:10px;}
+#member_main .menu .t{height:28px; line-height:32px; overflow:hidden; background:url("../images/member_menu_bg.jpg")/*tpa=http://zxygift.com/images/member_menu_bg.jpg*/; font-size:14px; font-weight:bold; text-indent:5px; color:#000;}
+#member_main .menu .list{border:1px solid #ddd; min-height:320px; _height:320px; border-top:none;}
+#member_main .menu .list dt{height:30px; line-height:30px; background:url("../images/left_menu_bg.png")/*tpa=http://zxygift.com/images/left_menu_bg.png*/ no-repeat; text-indent:35px; font-weight:bold; color:#000; border-top:1px solid #ddd; border-bottom:1px solid #ddd; font-size:14px;}
+#member_main .menu .list dt.user{font-family:"微软简粗黑体,黑体"; font-size:16px; font-weight:bold;}
+#member_main .menu .list dd{border-bottom:1px solid #ddd; height:24px; line-height:24px;}
+#member_main .menu .list dd a{height:24px; line-height:24px; text-indent:35px; background:url("../images/left_menu_arrow.png")/*tpa=http://zxygift.com/images/left_menu_arrow.png*/ no-repeat right center #F6F2F2; display:block;}
+#member_main .menu .list dd a.cur, #member_main .menu .list dd a:hover{background: url("../images/left_menu_arrow.png")/*tpa=http://zxygift.com/images/left_menu_arrow.png*/ no-repeat right center #fff; color:#D91900;}
+#member_main .info{border:6px solid #E9E5E2; padding:15px; zoom:1;}
+#member_main .info .face{width:80px; text-align:center; float:left;}
+#member_main .info .face a{display:block; margin-top:5px;}
+#member_main .info .ext_info{width:710px; margin-left:10px; float:left;}
+#member_main .info .ext_info span{font-size:14px; color:#A20002; font-weight:bold;}
+#member_main .info .ext_info .count{border:1px solid #ddd; background:#F8F8F8; margin:10px 0; padding:8px;}
+#member_main .info .ext_info .count li{float:left; width:45%; height:24px; line-height:24px; overflow:hidden;}
+#member_main .info .ext_info .order_ing{border:1px solid #ddd; background:#F8F8F8; margin-top:10px; padding:6px 8px;}
+#member_main .r_table{border:1px solid #ddd;}
+#member_main .r_table .t{height:26px; line-height:26px; background:url("../images/member_r_table_bg.jpg")/*tpa=http://zxygift.com/images/member_r_table_bg.jpg*/; font-weight:bold; text-indent:8px; font-size:14px; color:#000;}
+#member_main .r_table .contents{min-height:300px; _height:300px; padding:0px;}
+#member_main .r_table .txt{padding:10px; line-height:23px;}
+
+#cart{ width:980px; padding:20px 10px 0px;}
+#cart .cart_h5{font-size:16px; font-weight:bold; margin-bottom:5px;}
+#cart .cart_left{float:left;}
+#cart .cart_right{float:right; margin-right:20px;}
+#cart .item_list_table{border:1px solid #ddd; margin:9px 0; background-color:#ededed;}
+#cart .item_list_table .tb_title td{background:url("../images/cart_list_th_bg.gif")/*tpa=http://zxygift.com/images/cart_list_th_bg.gif*/ repeat-x; color:#4c4c4c; text-align:center; font-weight:bold; border-bottom:1px solid #ddd;}
+#cart .item_list_table td{padding:5px; line-height:180%;}
+#cart .item_list_table .qty{width:30px;}
+#cart .item_list_table .item_list td{border-bottom:1px solid #ddd;}
+#cart .item_list_table .item_list td td{border:none;}
+#cart .item_list_table .item_list_out td{background:none;}
+#cart .item_list_table .item_list_over td{background:#f7f7f7;}
+#cart .item_list_table .total td{border-bottom:1px solid #ddd; padding-right:30px; background:#f7f7f7;}
+#cart .item_list_table .total td b{font-size:13px;}
+#cart .checkout{padding:15px; margin-top:9px;}
+#cart .checkout .t{font-weight:bold; font-size:14px; color:#656565;}
+#cart .checkout .t a{color:#730B26; font-size:12px; font-weight:normal;}
+#cart .checkout .address_info{padding-left:30px; color:#666; line-height:200%;}
+#cart .checkout .dline{height:1px; border-bottom:1px solid #ddd; margin:10px 0;}
+#cart .checkout .a_info{background:#FAFAFA; padding:10px 15px;}
+#cart .checkout .a_info .address_list{background:#fff; border:1px solid #ddd; padding:3px;}
+#cart .checkout .a_info .address_list .list{margin:3px 0;}
+#cart .checkout .a_info .address_list .list .l{float:left; height:22px; line-height:22px;}
+#cart .checkout .a_info .address_list .list .r{float:right; height:22px; line-height:22px; padding-right:5px; width:55px; text-align:right;}
+#cart .checkout .a_info .add_new_address{margin:3px; border-bottom:1px dotted #ddd; height:28px;}
+#cart .checkout #shipping_to_this_address{margin-left:26px; margin-top:8px;}
+#cart .checkout .form_button_100{width:100px;}
+#cart .checkout #pls_conf_ship_addr{color:#999; text-indent:30px; height:30px; line-height:30px;}
+#cart .checkout #shipping_info{background:#FAFAFA; padding:20px 25px;}
+#cart .checkout #shipping_info .shipping_item{padding:2px 0;}
+#cart .checkout #shipping_info .shipping_item span{margin-left:20px; color:#999;}
+#cart .checkout #shipping_info .cline{border-bottom:1px dotted #ccc; margin:12px 0; height:1px; clear:both;}
+#cart .checkout #shipping_info .weight{color:#999; font-weight:normal;}
+#cart .checkout #payment_info{background:#FAFAFA; padding:15px 25px;}
+#cart .checkout #payment_info .paymentlist li{margin:8px 0;}
+#cart .checkout .sub_order{text-align:right; margin-top:30px; margin-left:20px;}
+#cart .checkout .checkout_left{float:left; width:530px;}
+#cart .checkout .checkout_right{float:right; width:300px;}
+#cart .complete .pay{border:1px solid #ddd; padding:50px; margin-top:3px;}
+
+#payment_table{width:772px; position:relative;}
+#payment_table ul.title{height:44px; position:absolute; top:0px; left:0px;}
+#payment_table ul.title li{float:left;}
+#payment_table ul.title li a{width:152px; height:44px; line-height:44px; text-align:center; display:block; border:2px #fca353 solid; border-left:none; background:url("../images/paytable_bg.jpg")/*tpa=http://zxygift.com/images/paytable_bg.jpg*/ repeat-x; color:#000; font-size:18px;}
+#payment_table ul.title li a.cur{border-bottom:2px #fffef1 solid; background:#fffef1;}
+#payment_table ul.title li a:hover{text-decoration:none; background:#fffef1;}
+#payment_table ul.title li.first a{border-left:2px #fca353 solid;}
+#payment_table .desc{padding-top:46px;}
+#payment_table .desc div.xx{border:2px #fca353 solid; width:712px; height:249px; overflow:hidden; background:#fffef1; padding:10px 30px;}
+#payment_table .desc p{margin:5px 0; color:#817e75;}
+#payment_table .desc p b{color:#000;}
+#payment_table .desc .paymentlist li{float:left; margin-right:15px;}
+#payment_table .desc .yu{margin:35px 0; font-size:16px; color:#000;}
+#payment_table .desc table{font-size:16px;}
+#payment_table .desc .btn{position:absolute; left:30px; bottom:30px;}
+
+#gouwuchelist{background-color:#CDCDCD; margin-top:10px;}
+#gouwuchelist th{background-color:#F1F1F1; color:#4C4C4C; height:34px; line-height:34px;}
+#gouwuchelist td{background-color:#fff; color:#4C4C4C; padding:8px; text-align:center;}
+
+/*forgot_box*/
+#forgot_box{ padding-bottom:50px;}
+#forgot_box .t{ color: #515151;font-size: 14px; font-weight: bold; padding:20px 10px ; border-bottom:1px solid #ddd}
+#forgot_box .c{ width:690px; margin:10px auto;  min-height:150px; _height:150px}
+#forgot_box .tips{color: #4E4E4E;font-size: 16px;padding: 30px 0;}
+#forgot_box .fb_row{ margin:18px 0;}
+#forgot_box .fb_row .fb_row_l{ width:80px; float:left; _display:inline; height:35px; line-height:35px; font-size:14px; text-align:right; margin-right:10px}
+#forgot_box .fb_row .fb_row_r{ width:500px; float:left; _display:inline;}
+#forgot_box .fb_row .fb_row_r .txt{ width:238px; border:1px solid #ddd; height:33px;}
+#forgot_box .btn{ margin-left:90px;}
+
+#sitemap{ padding-left:35px; }
+#sitemap .site_list .title{ font-weight:bold;font-size:16px; margin:3px 0px; color:#000}
+#sitemap .site_list .desc{ padding-left:15px;}
+
+#sitemap .site_list .desc a{ line-height:180%; margin-right:8px;}
+#sitemap .site_list .desc .ins { width:150px; padding-right:10px; line-height:normal;float:left; margin-bottom:5px;}
+#sitemap .site_list .desc .ins a{ line-height:normal;}
+
+.label{width:31px; height:32px; position:absolute; top:0px!important; right:0px!important; z-index:999;}
+.label_index{background:url("../images/label_index.png")/*tpa=http://zxygift.com/images/label_index.png*/ no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/label_index.png" ,sizingMethod="crop");}
+.label_hot{background:url("../images/label_hot.png")/*tpa=http://zxygift.com/images/label_hot.png*/ no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/label_hot.png" ,sizingMethod="crop");}
+.label_recommend{background:url("../images/label_recommend.png")/*tpa=http://zxygift.com/images/label_recommend.png*/ no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/label_recommend.png" ,sizingMethod="crop");}
+.label_special_offer{background:url("../images/label_special_offer.png")/*tpa=http://zxygift.com/images/label_special_offer.png*/ no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/label_special_offer.png" ,sizingMethod="crop");}
+.label_promotion{background:url("../images/label_promotion.png")/*tpa=http://zxygift.com/images/label_promotion.png*/ no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/label_promotion.png" ,sizingMethod="crop");}
+.label_clear{background:url("../images/label_clear.png")/*tpa=http://zxygift.com/images/label_clear.png*/ no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/label_clear.png" ,sizingMethod="crop");}
+.label_new{background:url("../images/label_new.png")/*tpa=http://zxygift.com/images/label_new.png*/ no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/label_new.png" ,sizingMethod="crop");}
